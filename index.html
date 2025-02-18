@@ -4,69 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
 </head>
+<style>
+    div{
+        min-height: 50px;
+        border: 1px solid red;
+    }
+</style>
+<!-- ASSIGNMENT -->
 <body>
-    <nav>
-        <div>
-            <img src="/img/logo.jpeg" id="logo">
-            <label class="logo" >Match Fix</label>
-            <ul>
-                <li>
-                    <a class="active" href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Stats</a>
-                </li>
-                <li>
-                    <a href="#">Testinomials</a>
-                </li>
-                <li >
-                    <a  href="#" >Susbcribe</a>
-                </li>
-            </ul>
+    <div class="container-fluid">
+    <form>
+        <div class="row">
+            <div class="col-md-3">
+                picture
+            </div>
+            <div class="col-md-3">
+                <label>select the quality</label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <input type="text" name="price" value="5000" id="price1">
+            </div>
+            <div class="col-md-3">
+                <p>Total</p>
+            </div>
         </div>
-    </nav>
-    <hr>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div id="page">
-        <h1>Matrimonial Search.</h1>
-        <h1>Best Matching Couples.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio illum culpa consectetur velit quibusdam aliquid.</p>
-        <button>Read More</button>
+    </form>
     </div>
-    <div id="form">
-        <form action="" method="get">
-            <p><b>Register & Join Our Matrimony</b></p>
-            <div>
-                <input id="first" type="text" placeholder="Your name" name="name" >
-            </div>
-            <br>
-            <div>
-                <input id="second" type="email" placeholder="email address" name="email">
-            </div>
-            <br>
-            <div>            
-                <input id="third" type="text" placeholder="contact number" name="contact number">
-            </div>
-            <br>
-            <div> 
-                <label>Gender</label>
-                <input type="radio" name="Gender" value="Male">Male
-                <input type="radio" name="Gender" value="Female">Female
-            </div>
-            <button id="button">Get Started</button>
-            <p>By registering, you agree to our <a href="#">Terms & Conditions.</a></p>
-        </form>
-    </div>
+    </select>
+    <script type="text/javascript">
+       var names=["bola","dominic","lola","desmond"];
+       var length= names.length
+       for(i=0; i<length; i++){
+        
+            
+       }
+
+    </script>
 </body>
 </html>
